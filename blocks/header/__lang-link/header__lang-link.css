@@ -1,0 +1,10 @@
+.header__lang-link {
+    text-decoration: none;
+    align-self: center;
+    color: #fff;
+}
+
+.header__lang-link:nth-child(2n+1) {
+    margin-right: 18px;
+    text-decoration: underline;
+}

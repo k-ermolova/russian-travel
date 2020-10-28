@@ -1,7 +1,6 @@
-.header__container {
-    width: 90%;
+.header__lang-links {
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 28px auto 0;
 }

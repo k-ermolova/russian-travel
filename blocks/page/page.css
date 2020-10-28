@@ -7,4 +7,5 @@
   -moz-text-size-adjust: 100%;
   color: #ffffff;
   background: #2a2c2f;
+  display: grid;
 }
