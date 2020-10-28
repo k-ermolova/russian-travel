@@ -1,0 +1,6 @@
+.header__container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border: thistle 1px solid;
+}
