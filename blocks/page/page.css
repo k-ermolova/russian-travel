@@ -1,8 +1,4 @@
 .page {
-<<<<<<< HEAD
-    background: #2A2C2F;
-}
-=======
   font-family: 'Inter', 'Helvetica', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -12,4 +8,3 @@
   background: #2a2c2f;
   color: #fff;
 }
->>>>>>> develop
