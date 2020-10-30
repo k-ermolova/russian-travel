@@ -1,0 +1,11 @@
+.img-container__caption {
+  margin: 8px 0 0;
+  padding: 0;
+  align-self: flex-start;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
