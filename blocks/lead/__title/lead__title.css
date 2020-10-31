@@ -8,8 +8,6 @@
   line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
-  align-self: center;
-  border: red 1px solid;
 }
 
 @media screen and (max-width: 660px) {
