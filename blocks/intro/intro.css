@@ -1,8 +1,17 @@
 .intro {
-  border: 1px solid red;
-  margin: 0 0 0 48px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  max-width: 690px;
+  padding: 92px 0 92px 0;
 }
+
+@media screen and (min-width: 320px) {
+  .intro {
+    padding: 64px 0 64px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding-top: 88px 0 88px 0;
+  }
+} 
