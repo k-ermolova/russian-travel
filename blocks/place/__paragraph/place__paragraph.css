@@ -13,3 +13,8 @@ margin: 0 0 26px 0;
 .place__paragraph:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 550px) {
+  .place__paragraph { 
+  }
+}
