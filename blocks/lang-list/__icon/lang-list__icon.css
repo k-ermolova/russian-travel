@@ -4,6 +4,6 @@
   align-self: flex-end;
 }
 
-.lang-list__icon:nth-of-type(2n) {
+.lang-list__icon:last-of-type {
   margin-right: 0;
 }
