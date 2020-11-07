@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 320px) {
   .footer {
-    padding: 64px 0 0 24px;
+    padding: 64px 0 0 16px;
     min-height: 398px;
     flex-direction: column;
     align-items: flex-start;

@@ -1,34 +1,27 @@
 .place {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 0;
   overflow: hidden;
-  grid-template-areas:
-    "title website"
-    "image article";
 }
 
 .place:last-of-type {
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 320px) {
   .place {
-    grid-template-columns: 320px;
-    grid-template-areas:
-      "title"
-      "image"
-      "article";
-    gap: 32px;
+    display: flex;
+    flex-direction: column;
     padding-bottom: 49px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .place {
+    display: grid;
     grid-template-columns: fit-content(340px) 1fr;
     grid-gap: 48px 28px;
+    grid-template-areas:
+    "title website"
+    "image article";
     padding-bottom: 72px;
   }
 }

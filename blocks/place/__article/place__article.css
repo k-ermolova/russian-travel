@@ -2,3 +2,9 @@
   grid-area: article;
   max-width: 90%;
 }
+
+@media screen and (max-width: 767px) {
+  .place__article {
+    margin-left: 16px;
+  }
+}
