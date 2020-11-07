@@ -20,8 +20,8 @@
     grid-template-columns: fit-content(340px) 1fr;
     grid-gap: 48px 28px;
     grid-template-areas:
-    "title website"
-    "image article";
+      "title website"
+      "image article";
     padding-bottom: 72px;
   }
 }
